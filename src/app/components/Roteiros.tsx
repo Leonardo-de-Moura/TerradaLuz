@@ -47,7 +47,7 @@ const DAYS_FREE: DayRoute[] = [
   {
     day: "Terça",
     icon: "🏛️",
-    title: "Centro & Cultura Cearense",
+    title: "Centro e Cultura Cearense",
     items: [
       {
         time: "9h00",
@@ -72,7 +72,7 @@ const DAYS_FREE: DayRoute[] = [
   {
     day: "Quarta",
     icon: "🌿",
-    title: "Natureza & Vistas",
+    title: "Natureza e Vistas",
     items: [
       {
         time: "8h00",
@@ -97,7 +97,7 @@ const DAYS_FREE: DayRoute[] = [
   {
     day: "Quinta",
     icon: "🌊",
-    title: "Praias & Pôr do Sol",
+    title: "Praias e Pôr do Sol",
     items: [
       {
         time: "9h00",
@@ -122,7 +122,7 @@ const DAYS_FREE: DayRoute[] = [
   {
     day: "Sexta",
     icon: "🏖️",
-    title: "Beira-Mar & Artesanato",
+    title: "Beira-Mar e Artesanato",
     items: [
       {
         time: "8h00",
@@ -170,7 +170,7 @@ const DAYS_PAID: DayRoute[] = [
   {
     day: "Terça",
     icon: "🔭",
-    title: "Dragão do Mar & Planetário",
+    title: "Dragão do Mar e Planetário",
     cost: "~R$ 30–60/pessoa",
     items: [
       {
@@ -191,7 +191,7 @@ const DAYS_PAID: DayRoute[] = [
   {
     day: "Quarta",
     icon: "📷",
-    title: "Fotografia & Cultura",
+    title: "Fotografia e Cultura",
     cost: "~R$ 20–40/pessoa",
     items: [
       {
@@ -212,7 +212,7 @@ const DAYS_PAID: DayRoute[] = [
   {
     day: "Quinta",
     icon: "⛵",
-    title: "Mar & Experiência",
+    title: "Mar e Experiência",
     cost: "~R$ 80–150/pessoa",
     items: [
       {
@@ -233,7 +233,7 @@ const DAYS_PAID: DayRoute[] = [
   {
     day: "Sexta",
     icon: "🍽️",
-    title: "Gastronomia & Cultura",
+    title: "Gastronomia e Cultura",
     cost: "~R$ 70–120/pessoa",
     items: [
       {
