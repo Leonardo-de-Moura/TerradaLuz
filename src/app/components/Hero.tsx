@@ -49,7 +49,7 @@ export function Hero() {
           }}
         >
           De praias douradas a restaurantes imperdíveis — descubra o melhor que a
-          cidade tem a oferecer para vocês dois.
+          cidade tem a oferecer para vocês.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
