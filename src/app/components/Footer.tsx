@@ -1,61 +1,72 @@
-const DICAS = [
+interface Dica {
+  icon: string;
+  title: string;
+  items: string[];
+}
+
+interface NavItem {
+  label: string;
+  href: string;
+}
+
+const DICAS: Dica[] = [
   {
     icon: "🔒",
     title: "Segurança",
     items: [
-      "Não leve celulares ou objetos de valor para a praia, Lapa ou Selarón.",
-      "Evite caminhar à madrugada por áreas pouco movimentadas.",
-      "Em bares na Lapa e no Centro, use aplicativos de transporte à noite.",
+      "Evite deixar celular e objetos de valor à mostra em praias e locais muito movimentados.",
+      "À noite, prefira áreas movimentadas e utilize aplicativos de transporte.",
+      "Em regiões turísticas, fique atento aos seus pertences, principalmente durante grandes eventos.",
     ],
   },
   {
     icon: "🚗",
     title: "Logística",
     items: [
-      "Use Uber ou 99 para segurança e comodidade.",
-      "O metrô é eficiente e seguro para a Zona Sul.",
-      "Evite táxis não credenciados — priorize apps.",
+      "Uber e 99 são opções práticas para circular pela cidade.",
+      "O trânsito pode ficar intenso nos horários de pico, principalmente na região da Beira-Mar.",
+      "Para trajetos mais longos, planeje o deslocamento com antecedência.",
     ],
   },
   {
     icon: "📅",
     title: "Reservas",
     items: [
-      "Cristo Redentor e Bondinho: reserve online com antecedência.",
-      "Marius Degustare e Pope Ipanema lotam rápido — agende antes.",
-      "Fins de semana e feriados: mais concorrido em todas as atrações.",
+      "Restaurantes e rooftops mais disputados podem exigir reserva antecipada.",
+      "Passeios para praias próximas, como Cumbuco e Morro Branco, podem ser reservados com antecedência.",
+      "Fins de semana e feriados costumam ter maior movimento nas atrações turísticas.",
     ],
   },
   {
     icon: "🌊",
     title: "Praia",
     items: [
-      "Cadeiras custam entre R$15–20 nas barracas.",
-      "Leve dinheiro em espécie para os ambulantes.",
-      "Cuidado com pertences — deixe o celular no hotel.",
+      "A orla da Beira-Mar é uma das principais áreas para caminhar, pedalar e aproveitar o pôr do sol.",
+      "Na Praia do Futuro, confira os preços antes de consumir nas barracas.",
+      "Evite deixar celular e outros objetos de valor sem supervisão enquanto estiver na praia.",
     ],
   },
   {
     icon: "☀️",
     title: "Clima",
     items: [
-      "O sol é intenso o ano todo — use protetor solar FPS 50+.",
-      "O período mais chuvoso é de janeiro a março.",
-      "Leve uma canga leve; a temperatura pode ser amena à noite.",
+      "O sol pode ser intenso durante boa parte do ano — use protetor solar.",
+      "Leve água e mantenha-se hidratado durante passeios ao ar livre.",
+      "Uma roupa leve e proteção para o sol são boas escolhas para explorar a cidade.",
     ],
   },
   {
     icon: "💳",
     title: "Dinheiro",
     items: [
-      "A maioria dos lugares aceita cartão, mas tenha espécie para praias.",
-      "Câmbio em casas de câmbio ou banco — evite câmbio no aeroporto.",
-      "PIX é amplamente aceito em toda a cidade.",
+      "PIX e cartões são amplamente aceitos em estabelecimentos turísticos.",
+      "Ainda assim, é útil ter uma pequena quantia em dinheiro para vendedores e situações pontuais.",
+      "Confira preços e taxas antes de consumir em barracas, bares e restaurantes.",
     ],
   },
 ];
 
-const NAV = [
+const NAV: NavItem[] = [
   { label: "Roteiros", href: "#roteiros" },
   { label: "Gastronomia", href: "#gastronomia" },
   { label: "Bares & Cafés", href: "#bares" },
@@ -206,7 +217,7 @@ export function Footer() {
               textAlign: "center",
             }}
           >
-            © 2026 Terra. Feito com ❤️ para o amor cearense.
+            © 2026 Feito por um cearense ❤️.
           </p>
         </div>
       </div>
