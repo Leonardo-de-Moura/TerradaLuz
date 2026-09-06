@@ -20,6 +20,7 @@ function Navbar() {
     { label: "Gastronomia", href: "#gastronomia" },
     { label: "Bares & Cafés", href: "#bares" },
     { label: "Dicas", href: "#dicas" },
+    {label: "Contato", href: "https://t.me/TerradaLuzbot", target: "_blank", rel: "noopener noreferrer" },
   ];
 
   return (
